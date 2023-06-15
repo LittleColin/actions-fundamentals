@@ -20,8 +20,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo "Triggered by {{ .github.event_name }}"
-          echo "on branch {{ .github.ref }}"
+          echo "Triggered by ${{ .github.event_name }}"
+          echo "on branch ${{ .github.ref }}"
           ls -R
           
       
