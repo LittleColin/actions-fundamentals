@@ -1,5 +1,6 @@
 # GitHub Actions Fundamentals
 
+SMALL CHANGE
 Repo for the `GitHub Actions Fundamentals` training.
 
 
