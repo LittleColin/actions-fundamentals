@@ -22,7 +22,7 @@ jobs:
       - run: |
           echo "Triggered by ${{ github.event_name }}"
           echo "on branch ${{ github.ref }}"
-          ls -R
+          tree
           
       
         
