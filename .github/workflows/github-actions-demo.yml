@@ -48,7 +48,7 @@ jobs:
   production:
     name: Production
     runs-on: ubuntu-latest
-    if: github.inputs.environment == 'production'
+    if: github.inputs.environment == 'Production'
     needs: [test, load-test]
     steps:
       - run: |
