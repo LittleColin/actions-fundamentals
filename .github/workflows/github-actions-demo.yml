@@ -39,7 +39,7 @@ jobs:
       
   load-test:
     name: Load-Test
-    runs-on: ubunutu-latest
+    runs-on: ubuntu-latest
     needs: build
     steps:
       - run: echo 'Testing'
